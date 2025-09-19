@@ -2,5 +2,6 @@
   name: Luacheck
   description: Lints Lua files using Luacheck.
   entry: luacheck --
-  language: system
-  types: [file, lua]
+  args: []
+  language: lua
+  types: [lua]
